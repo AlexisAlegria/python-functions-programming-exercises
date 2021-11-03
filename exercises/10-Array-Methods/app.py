@@ -1,9 +1,9 @@
 names = ['John', 'Kenny', 'Tom', 'Bob', 'Dilan']
 ## CREATE YOUR FUNCTION HERE
 
+
 def sort_names(list):
-     result = list.sort()
-     return result
+     return sorted(list)
 
 print(sort_names(names))
 
